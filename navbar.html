@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        body{
+        margin: 0;
+        padding: 0;
+        }
+         ul{
+             margin: 0;
+             padding: 0;
+             list-style-type: none;
+             height: 100vh;
+             background-color: #f1f1f1f1;
+             width: 150px;
+             /* overflow-y: scroll; */
+            
+         }
+         li a{
+             padding: 8px 16px;
+             text-transform: capitalize;
+             display: block;
+             text-decoration: none;
+             color: #000;
+             border-bottom: 1px solid #a3a7a7;
+         }
+         li a.active{
+            background-color: #04AA6D;
+             color: #fff;
+         }
+         li a:hover:not(.active){
+             background-color: silver;
+             color: #fFf;
+         }
+       
+        
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <ul>
+           <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">tutorial</a></li>
+           <li><a href="#">About_me</a></li>
+           <li><a href="#">Contact_me</a></li>
+        </ul>
+    </div>
+</body>
+</html>

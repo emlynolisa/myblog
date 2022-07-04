@@ -1,12 +1,45 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100;300;400;700&display=swap');
+<<<<<<< HEAD
+=======
+
+
+
+   
+
+
+>>>>>>> db172291859bb790a00c0e5d5c3f71933ec13658
 * {
     margin: 0;
     padding: 0;   
 }
+<<<<<<< HEAD
 a{
     text-decoration: none;
 }
+=======
+
+    
+    
+
+
+
+
+
+/*
+
+
+@media screen and (max-width: 760px){
+    body{
+        width: 100%;
+        display: block
+    }
+    header, h1, ul {
+        width: 100%;
+  
+} */
+
+>>>>>>> db172291859bb790a00c0e5d5c3f71933ec13658
 body{
     background-color: aliceblue;
 }
